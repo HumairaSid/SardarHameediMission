@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import shmission1 from "../assets/shmission6.jpg"
 import shmission2 from "../assets/shmission8.jpg"
@@ -192,12 +192,7 @@ const Home = () => {
           Join us in empowering women, educating children, and promoting health
           for all.
         </p>
-        <Link
-          to="/contact"
-          className="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 shadow-md"
-        >
-          Get Involved
-        </Link>
+       
       </div>
     </section>
   );
