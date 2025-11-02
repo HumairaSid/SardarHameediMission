@@ -9,6 +9,7 @@ export default function Header() {
 
   return (
     <header className="bg-blue-400 text-white shadow-md">
+    
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo + Title */}
            <Link to="/">
@@ -16,6 +17,7 @@ export default function Header() {
             alt="Home" style={{cursor:'pointer'}}
             className="w-10 h-10 md:w-12 md:h-12 object-contain"
           /></Link>
+            <div>
           <span className="text-lg md:text-xl font-bold leading-tight">
             Sardar Hameedi <br className="block md:hidden" />
             <span className="hidden md:inline">
