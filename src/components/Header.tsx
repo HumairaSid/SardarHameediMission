@@ -12,11 +12,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo + Title */}
         <div className="flex items-center space-x-3">
-          <img
-            src={logo}
-            alt="Organization Logo"
+         <Link to="/">
+          <img src={logo}
+            alt="Home" style={{cursor:'pointer'}}
             className="w-10 h-10 md:w-12 md:h-12 object-contain"
-          />
+          /></Link>
           <span className="text-lg md:text-xl font-bold leading-tight">
             Sardar Hameedi <br className="block md:hidden" />
             <span className="hidden md:inline">
@@ -60,9 +60,6 @@ export default function Header() {
           </Link>
           <Link to="/mission" className="block hover:text-blue-200" onClick={toggleMenu}>
             Mission
-          </Link>
-          <Link to="/gallery" className="block hover:text-blue-200" onClick={toggleMenu}>
-            Gallery
           </Link>
         </div>
       )}
